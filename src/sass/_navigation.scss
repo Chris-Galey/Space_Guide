@@ -1,0 +1,48 @@
+/* navigation */
+.nav {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  align-items: center;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+  }
+
+  &__title {
+    letter-spacing: 0.2rem;
+  }
+  // &__list {
+  //   font-size: 2rem;
+  //   letter-spacing: 0.2rem;
+  //   list-style: none;
+  //   margin-left: 5rem;
+
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: flex-start;
+  //   flex: 1;
+  //   gap: 2rem;
+
+  //   visibility: visible;
+  //   position: relative;
+  // }
+  // &__list::after {
+  //   content: "Features Coming Soon!";
+  //   position: absolute;
+  //   top: 120%;
+  //   left: 6%;
+  //   font-size: 1.5rem;
+  // }
+
+  // &__item {
+  //   filter: blur(3px);
+  //   justify-content: flex-end;
+  // }
+  // &__item:hover {
+  //   filter: blur(0);
+  // }
+}

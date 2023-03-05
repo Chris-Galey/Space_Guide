@@ -1,0 +1,138 @@
+.launch {
+  &__container {
+    height: 100vh;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+    position: relative;
+    @include respond(phone) {
+      //width < 600?
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 1rem;
+    @include respond(phone) {
+      //width < 600?
+      font-size: 3rem;
+    }
+  }
+
+  //////LIST
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 95%;
+    gap: 1.5rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  &__link--active {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &__item {
+    max-width: 100%;
+    height: 20%;
+    padding: 0.5rem;
+    border: 1px solid $color-secondary;
+    border-image: radial-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0)) 2;
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    transition: all 0.4s;
+  }
+
+  &__item:hover {
+    border-image: radial-gradient(rgb(255, 255, 255), rgba(0, 0, 0, 0)) 1;
+    transform: scale(0.95);
+  }
+
+  &__name {
+    text-align: center;
+  }
+  &__missionName {
+    margin-bottom: 1rem;
+  }
+
+  ////////Pagination
+  ///
+  &__pagination {
+    display: flex;
+    justify-content: center;
+    height: 5%;
+  }
+
+  //////Slide
+  &__slide {
+    height: 100%;
+    padding: 2rem;
+
+    border: 1px solid $color-secondary;
+    border-image: radial-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0)) 2;
+    border-radius: 0.5rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    @include respond(phone) {
+      //width < 600?
+      grid-template-columns: 1fr;
+    }
+  }
+  &__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  &__status {
+    gap: 1rem;
+  }
+  &__mission {
+    gap: 1rem;
+  }
+  &__service {
+    gap: 1rem;
+  }
+  &__img {
+    display: flex;
+    @include respond(phone) {
+      // //width < 600?
+      // position: absolute;
+      // top: 0;
+      // visibility: hidden;
+    }
+  }
+  &__img img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+#map {
+  height: 80%;
+  max-width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}

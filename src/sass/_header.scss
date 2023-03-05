@@ -1,0 +1,78 @@
+/* header */
+.header {
+  height: 85vh;
+  max-width: 100%;
+  border-bottom: 0.5px solid $color-secondary;
+  border-image: radial-gradient(rgba(255, 255, 255, 0.709), rgba(0, 0, 0, 0)) 1;
+  border-radius: 1rem;
+  margin-bottom: 25rem;
+  padding-bottom: 15rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+
+  &__welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__intro {
+    text-transform: uppercase;
+    @include respond(phone) {
+      //width < 600?
+      font-size: 4.2rem;
+    }
+  }
+
+  &__title {
+    font-size: 22.4rem;
+    letter-spacing: 0.5rem;
+    line-height: 1;
+    color: $color-primary;
+    -webkit-text-stroke: 1px $color-secondary;
+    position: relative;
+    @include respond(tab-port) {
+      //width < 900?
+      font-size: 25rem;
+    }
+    @include respond(phone) {
+      //width < 600?
+      font-size: 30rem;
+    }
+  }
+
+  &__description {
+    font-weight: 300;
+    @include respond(phone) {
+      //width < 600?
+      font-size: 4.2rem;
+    }
+  }
+
+  // &__title::after {
+  //   position: absolute;
+  //   top: 90%;
+  //   left: 60%;
+  //   content: "explore.settle.build";
+  //   font-family: $font-display;
+  //   font-size: 1.7rem;
+  //   text-transform: uppercase;
+  //   letter-spacing: 0.3rem;
+  // }
+
+  // &__intro::after {
+  //   content: "";
+  //   height: 2rem;
+  //   width: 15rem;
+  //   background-color: #ff7730;
+  //   position: absolute;
+  //   top: 16%;
+  //   left: -18%;
+  //   z-index: -11;
+  //   border-radius: 2rem;
+  // }
+}
