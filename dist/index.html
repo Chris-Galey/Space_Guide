@@ -1,1 +1,191 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Space Guide</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@300;400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/index.19fc02c2.css"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin><script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin></script><script defer type="module" src="/index.406bc8b6.js"></script></head><title>Space Guide | Centralizing space information for mankind.</title><body>  <nav class="nav"> <div class="nav__header"> <div class="nav__title"><h3>Space Guide</h3></div> </div>     </nav>  <header class="header"> <div class="header__welcome"> <p class="header__intro">Introducing</p> <h1 class="header__title"> Space Guide</h1> <p class="header__description">Centralizing space information for mankind.</p> </div>  </header>  <main class="main"> <section class="news"> <h1 class="heading-primary news__header">News</h1> <div class="news__slideshow">  </div> <div class="news__buttons"> <div class="news__btn news__btn--left"> <button class="btn">&lang;</button> </div> <div class="news__btn news__btn--right"> <button class="btn">&rang;</button> </div> </div> </section>  <section class="launch"> <h1 class="heading-primary launch__header">Launches</h1> <div class="launch__container">  <div id="map"></div> <div class="launch__nav"> <ul class="launch__list">  </ul> <div class="launch__pagination">  </div> </div> <div class="launch__slide">  </div> </div> </section>    </main> </body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Space Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.f7626f62.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="">
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <script defer="" src="/index.e37f48ea.js"></script>
+  </head>
+        <!-- <link rel="shortcut icon" type="img/favicon.png" href="src/img/favicon.png"> -->
+        
+        <title>Space Guide | Centralizing space information for mankind.</title>
+    
+
+    <body>
+    
+        <!--  nav menu   -->
+        <nav class="nav">
+            
+            <div class="nav__header">
+                
+                <div class="nav__title"><h3>Space Guide</h3></div>
+            </div>
+            <!-- future options -->
+            <!-- <ul class="nav__list">
+                <li class="nav__item">Explore.<a href="#" class="nav__link"></a></li>
+                <li class="nav__item">Settle.<a href="#" class="nav__link"></a></li>
+                <li class="nav__item">Build.<a href="#" class="nav__link"></a></li>
+            </ul> -->
+
+            <!-- future use -->
+        <!-- <div class="nav__btn"><button class="btn">Download App</button> -->
+         
+        </nav>
+        
+        
+        <!--  Header  -->
+         <header class="header">
+          
+             <div class="header__welcome">
+                 
+                 <p class="header__intro">Introducing</p> 
+                 <h1 class="header__title"> Space Guide</h1>
+                 <p class="header__description">Centralizing space information for mankind.</p>
+              
+                 
+                </div>
+                <!-- <div class="header__btn"><button class="btn">Click to start</button></div> -->
+         </header>
+
+     
+         <!-- Main Content -->
+         <main class="main">
+           <section class="news">
+             
+             <h1 class="heading-primary news__header">News</h1>
+             
+             
+             <div class="news__slideshow">
+                <!-- <div class="news__slide">
+                  
+                  <div class="news__img"><img src="" alt="" /></div>
+                
+                  
+                  <div class="news__description">
+                    <div class="news__title">News Title</div>
+                    
+                    <blockquote class="news__text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Cupiditate neque voluptatem dolorem, praesentium eum, in
+                    excepturi quas molestiae rerum quos alias doloremque deserunt
+                    assumenda nemo necessitatibus consectetur sit, tempora at.
+                  </blockquote>
+                  
+                  <p class="news__author">Space News Organization</p>
+                  
+                  <div class="news__date">Date</div>
+                </div>
+                
+                
+              </div> -->
+            </div>
+            <div class="news__buttons">
+              <div class="news__btn news__btn--left ">
+                <button class="btn">&lang;</button>
+              </div>
+              <div class="news__btn news__btn--right">
+                <button class="btn">&rang;</button>
+               </div>
+            </div>
+            
+          </section>
+          
+          <!-- Launches -->
+          
+          <section class="launch">
+            
+            <h1 class="heading-primary launch__header">Launches</h1>
+            
+            <div class="launch__container">
+              <!-- <div class="error">
+                <div>
+                  <h1> This is an error </h1>
+                </div>
+                <p>No recipes found for your query. Please try again!</p>
+              </div>
+              <div class="message">
+                <div>
+                  <svg>
+                    <use href="src/img/icons.svg#icon-smile"></use>
+                  </svg>
+                </div>
+                <p>Start by searching for a recipe or an ingredient. Have fun!</p>
+              </div> -->
+              
+              <div id="map"></div>
+              <div class="launch__nav">
+                <ul class="launch__list">
+        
+                  <!-- <li class="launch__item">
+                    <a class="launch__link ${
+                      result.id === id ? "launch__link--active" : ""
+                    }" href="${result.id}">
+                    <div class="launch__name">${result.servicerName}</div>
+                    <div class="launch__pad">${result.padName}</div>
+                    <div class="launch__start">${result.start}</div>
+                  </a>
+                </li>`; -->
+              </ul>
+              <div class="launch__pagination">
+                <!-- <button class="btn launch__btn btn--prev">&lang; Prev</button>
+                  <button class="btn launch__btn btn--next">Next &rang;</button> -->
+                </div>
+              </div>
+              
+              <div class="launch__slide">
+                          <!-- <div class="launch__content">
+                            
+                            <div class="status">
+                              <h2>status</h2>
+                              <p>${this._data.statusName}</p>
+                              <p>Update: ${this._data.statusDesc}</p>
+                              <p>Window Start: ${this._data.start}</p>
+                            </div>
+                            
+                            <div class="launch__mission">
+                              <h2>mission</h2>
+                              <p>description: ${this._data.missionDesc}</p>
+                              <p>Type: ${this._data.missionType}</p>
+                              <p>Orbit: ${this._data.missionOrbit}</p>
+                            </div>
+                            
+                            
+                            <div class="launch__service"><h2>servicer</h2>
+                              <p>name: ${this._data.servicerName}</p
+                                <p>type: ${this._data.servicerType}</p>
+                                <p> Total launch attempt: ${this._data.servicerTotal}</p>
+                                <p>Year-to-Date launch attempt: ${this._data.servicerAnnual}</p>
+                              </div> 
+                              
+                            </div>
+                            
+                            <div class="launch__img"><img src=${this._data.image} alt=""></div> -->
+                            
+                          </div>
+                          
+                        </div>
+                        
+                      </section>
+                      
+                      <!-- future use -->
+                        <!-- <div class="spinner">
+                            <svg>
+                              <use href="${icons}#icon-loader"></use>
+                            </svg>
+                          </div> -->
+                        <!-- news -->
+                    </main>
+        
+                  </body>
+                  
+                  
+                  
+                  </html>
