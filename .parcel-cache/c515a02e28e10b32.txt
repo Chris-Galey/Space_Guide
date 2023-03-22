@@ -1,4 +1,4 @@
-7829
+7830
 53C:\Users\Chris\Desktop\Projects\SG-vanilla\.gitignore133225294691211160 0
 86C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\full\date\to-string.js133225294315511039 0
 84C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\css-select\lib\sort.d.ts.map133225294299653456 0
@@ -69,9 +69,19 @@
 94C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\internals\string-trim-start.js133225294314493761 0
 103C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\@parcel\transformer-json\src\JSONTransformer.js133225294297429408 0
 97C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\internals\advance-string-index.js133225294299862889 0
-52C:\Users\Chris\Desktop\Projects\SG-vanilla\README.md133239988245180391 0
+52C:\Users\Chris\Desktop\Projects\SG-vanilla\README.md133240001827554455 0
 87C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\sass\types\util\promise_or.d.ts133225294301239218 0
 91C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\modules\es.regexp.sticky.js133225294305118836 0
+94C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\internals\array-to-reversed.js133225294301438683 0
+84C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\css-tree\lib\lexer\search.js133225294301558366 0
+90C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\modules\es.symbol.match.js133225294305447952 0
+88C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\.bin\node-gyp-build-optional.cmd133225294316917293 0
+62C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\dotenv133225294297977933 1
+82C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\source-map-js\package.json133225294299074997 0
+86C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\symbol\match.js133225294311521716 0
+59C:\Users\Chris\Desktop\Projects\SG-vanilla\SG-VanillaJS.png133240001718583256 0
+93C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\modules\es.string.trim-end.js133225294305358204 0
+88C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\typed-array\at.js133225294302136809 0
 68C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\import-fresh133225294297768497 1
 64C:\Users\Chris\Desktop\Projects\SG-vanilla\src\sass\_header.scss133201760810642156 0
 46C:\Users\Chris\Desktop\Projects\SG-vanilla\src133181339797836908 1
@@ -359,8 +369,6 @@
 96C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\full\typed-array\reduce-right.js133225294312748435 0
 86C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\type-fest\source\value-of.d.ts133225294300271796 0
 78C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\term-size\package.json133225294298456664 0
-101C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\caniuse-lite\data\features\text-decoration.js133225294305577616 0
-61C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\clone133225294298027801 1
 111C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\@parcel\node-resolver-core\test\fixture\nested\index.js133225294299912756 0
 82C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\domutils\lib\querying.d.ts133225294299653456 0
 83C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\immutable\dist\immutable.js133225294298676072 0
@@ -422,6 +430,8 @@
 71C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\detect-libc\lib133225294298157456 1
 74C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\chrome-trace-event133225294298297078 1
 71C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\lmdb\caching.js133225294301727910 0
+101C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\caniuse-lite\data\features\text-decoration.js133225294305577616 0
+61C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\clone133225294298027801 1
 69C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\color-convert133225294298237238 1
 102C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\css-tree\lib\syntax\pseudo\nth-last-of-type.js133225294301358889 0
 69C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\lmdb\write.js133225294301867537 0
@@ -480,11 +490,6 @@
 98C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\css-tree\lib\syntax\scope\atrulePrelude.js133225294298536437 0
 95C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\node-gyp-build-optional-packages\bin.js133225294297000543 0
 64C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\domutils133225294299344276 1
-94C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\internals\array-to-reversed.js133225294301438683 0
-84C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\css-tree\lib\lexer\search.js133225294301558366 0
-90C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\modules\es.symbol.match.js133225294305447952 0
-88C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\.bin\node-gyp-build-optional.cmd133225294316917293 0
-62C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\dotenv133225294297977933 1
 91C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\typed-array\index.js133225294309906037 0
 83C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\domutils\lib\traversal.d.ts133225294299733243 0
 69C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\dotenv-expand133225294297928076 1
@@ -1115,9 +1120,6 @@
 98C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\@parcel\runtime-react-refresh\package.json133225294297718624 0
 86C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\xxhash-wasm\umd\xxhash-wasm.js133225294297539105 0
 87C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\full\string\includes.js133225294309078253 0
-80C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\json5\dist\index.min.mjs133225294299184703 0
-76C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\source-map\README.md133225294297080334 0
-72C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\stable\stable.js133225294297549087 0
 79C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\es\math\sign.js133225294313745768 0
 93C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\lightningcss-win32-x64-msvc\README.md133225294297010531 0
 90C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\xxhash-wasm\umd\xxhash-wasm.js.map133225294298416768 0
@@ -1792,6 +1794,9 @@
 106C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\@parcel\core\test\fixtures\invalid-source-not-file133225294302346256 1
 78C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\caniuse-lite\README.md133225294306176014 0
 72C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\stable\README.md133225294297249876 0
+80C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\json5\dist\index.min.mjs133225294299184703 0
+76C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\source-map\README.md133225294297080334 0
+72C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\stable\stable.js133225294297549087 0
 87C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\caniuse-lite\data\regions\DJ.js133225294302854887 0
 93C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\actual\async-iterator\from.js133225294308150724 0
 78C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\js-tokens\CHANGELOG.md133225294297000543 0
@@ -1818,7 +1823,6 @@
 77C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\source-map-js\LICENSE133225294296724226 0
 98C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\caniuse-lite\data\features\script-async.js133225294305208600 0
 85C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\css-tree\lib\parser\create.js133225294299703322 0
-82C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\source-map-js\package.json133225294299074997 0
 111C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\lmdb.h133225294301508493 0
 86C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\source-map-js\lib\array-set.js133225294297070357 0
 88C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\internals\array-slice.js133225294301408760 0
@@ -2929,8 +2933,6 @@
 138C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-exclude\main.js133225294300700660 0
 90C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\caniuse-lite\data\features\heif.js133225294303513143 0
 87C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\web\structured-clone.js133225294314533661 0
-90C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\caniuse-lite\data\features\calc.js133225294301319000 0
-93C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\number\to-precision.js133225294315122093 0
 90C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\actual\string\match-all.js133225294311392064 0
 98C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\modules\esnext.array.last-index.js133225294305816975 0
 103C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\@jridgewell\set-array\dist\set-array.umd.js.map133225294297918103 0
@@ -3672,9 +3674,6 @@
 97C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\url-search-params\index.js133225294309916011 0
 105C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\@parcel\reporter-dev-server\lib\ServerReporter.js133225294299493878 0
 85C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\url\to-json.js133225294315042301 0
-86C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\symbol\match.js133225294311521716 0
-93C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\modules\es.string.trim-end.js133225294305358204 0
-88C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\typed-array\at.js133225294302136809 0
 97C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\typed-array\copy-within.js133225294303203954 0
 101C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\typed-array\find-last-index.js133225294307352872 0
 95C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\typed-array\find-last.js133225294307432644 0
@@ -3839,6 +3838,8 @@
 88C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\date\to-string.js133225294315540972 0
 92C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\number\constructor.js133225294303084284 0
 91C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\number\is-integer.js133225294310275049 0
+90C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\caniuse-lite\data\features\calc.js133225294301319000 0
+93C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\number\to-precision.js133225294315122093 0
 85C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\number\virtual133225294315122093 1
 90C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\actual\suppressed-error.js133225294314693237 0
 94C:\Users\Chris\Desktop\Projects\SG-vanilla\node_modules\core-js\stable\number\virtual\index.js133225294309866143 0

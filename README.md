@@ -7,3 +7,8 @@
 ## Tools
 
 -Vanilla JavaScript, CSS, SASS, V2 Launch API.
+
+## Resources
+
+[Link](https://chic-belekoy-cddf55.netlify.app/)
+![Screenshot](SG-VanillaJS.png)
