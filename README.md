@@ -2,7 +2,7 @@
 
 ## Description
 
-- Space guide is my first interactive responsive web application that provides space news and upcoming launch information for outer space enthusiast.
+- Space Guide is my first interactive responsive web application that provides space news and upcoming launch information for outer space enthusiasts.
 
 ## Tools
 
@@ -10,5 +10,5 @@
 
 ## Resources
 
-[Link](https://chic-belekoy-cddf55.netlify.app/)
+[Link](https://space-guide.netlify.app/)
 ![Screenshot](SG-VanillaJS.png)
